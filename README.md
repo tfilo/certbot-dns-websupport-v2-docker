@@ -16,4 +16,4 @@ docker run -it --rm --name certbot \
     certonly --dns-websupport-v2-credentials /websupport.ini -d *.YOUR_DOMAIN.sk --authenticator dns-websupport-v2
 ```
 
-This docker image extends [official certbot image](https://hub.docker.com/r/certbot/certbot) and add my custom plugin for dns challenge against Websupport REST API.
+This docker image extends [official certbot image](https://hub.docker.com/r/certbot/certbot) licensed under Apache License Version 2.0 and adds my custom plugin for dns challenge against Websupport REST API.
