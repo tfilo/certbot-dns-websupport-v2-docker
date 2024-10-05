@@ -1,0 +1,9 @@
+volumes/websupport.ini
+volumes/config/**
+volumes/log/**
+volumes/work/**
+
+# exception to the rule
+!volumes/config/.gitkeep
+!volumes/log/.gitkeep
+!volumes/work/.gitkeep
